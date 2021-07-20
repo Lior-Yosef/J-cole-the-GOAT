@@ -1,0 +1,40 @@
+*{text-align: center;}
+
+
+header { height: 10%;
+    /* position: fixed 200px ;
+    background-color: black ; */
+        }
+
+/* footer { height 7% ;} */
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+h1{ font-family: 'Otomanopee One', sans-serif;
+text-align: center;}
+
+img {
+    border-radius: 50%;
+    color: white;
+    box-shadow: 200px 200px 70px #ccc;
+      -moz-box-shadow: 70px 70px 7px #ccc;
+      -webkit-box-shadow: 50px 10px 6px #ccc;
+    width: 450px;
+    height: 450px;
+    transition: 2s; 
+    
+}
+
+img:hover {  width: 550px;
+              /* opacity: 0.5; */
+              height: 550px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+#inform{ 
+    background-color: lightblue;
+    width: 400px;
+    height: 100px;
+    overflow-y: scroll;
+    margin: auto;
+    transition: 1s;
+}
+
